@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ede055807d66ae9428a7f74784ab5f5f
+guid: daf733aa2a99dc540887ea589f01db1c
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -8,52 +8,52 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Armor_Arms
-    second: {fileID: 2100000, guid: ae6ee8e856d8de640b5d8130f1711bc8, type: 2}
+    second: {fileID: 2100000, guid: 5679fea63dea1b240b8948266df5b4f2, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Eyes_Cornea
-    second: {fileID: 2100000, guid: 917b4181f88ef9949a539b37aaaa62c6, type: 2}
+    second: {fileID: 2100000, guid: 17741c330ee38e145a2bf81bdfd4e493, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Eyeshadow
-    second: {fileID: 2100000, guid: 031311dce31936047a0e873b6a975f29, type: 2}
+    second: {fileID: 2100000, guid: ab7b26e1cef479546892182c3686d1dc, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: MainCharMale_v2_ACC
-    second: {fileID: 2100000, guid: 170f85d203477e2458d0858776a29c8b, type: 2}
+    second: {fileID: 2100000, guid: f78fa1480fd63644099e107ec28bd977, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: MainCharMale_v2_Cloth
-    second: {fileID: 2100000, guid: 5b04f739e86fc504f903a8dab1f03a9e, type: 2}
+    second: {fileID: 2100000, guid: 81d23c7605758594ab62ccba76a8a537, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.001
-    second: {fileID: 2100000, guid: 7d29a06d886664642b4ffa5344fc3871, type: 2}
+    second: {fileID: 2100000, guid: 2cb9fe53230615c40980563a3b32f07a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: SpartanHoplite_Body
-    second: {fileID: 2100000, guid: 7e34767a378e7a84da1e4800071ad0e6, type: 2}
+    second: {fileID: 2100000, guid: c4809d0917fdca04bbf56fa87fc6a81d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: SpartanHoplite_Eyes
-    second: {fileID: 2100000, guid: 45911f25d777b7d49913d1bfd12415be, type: 2}
+    second: {fileID: 2100000, guid: 9d812acb1b00eff4eb4fa07cf06ffcb0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: SpartanHoplite_Face
-    second: {fileID: 2100000, guid: c0e490f5548d9e24eb15966e6526c0e9, type: 2}
+    second: {fileID: 2100000, guid: 1441ef69ae80fab419011f76d81cca46, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: SpartanHoplite_Hair
-    second: {fileID: 2100000, guid: 6f09703acf74f4f4e9d654a199359458, type: 2}
+    second: {fileID: 2100000, guid: f5116f67f2123f946a4e791cf567562f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
