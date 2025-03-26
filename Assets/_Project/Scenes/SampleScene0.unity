@@ -18223,7 +18223,7 @@ PrefabInstance:
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
       propertyPath: Editor_Tabs1
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
@@ -18234,6 +18234,11 @@ PrefabInstance:
         type: 3}
       propertyPath: SelectedMode
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: SelectedState
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
