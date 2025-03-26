@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 81d3d15d9abc3e44484a72fd790af970
+guid: 473541da0def97544b5c0e22b3002fa2
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 2100000
@@ -10,6 +10,6 @@ AssetOrigin:
   serializedVersion: 1
   productId: 121424
   packageName: Ravens and Crows
-  packageVersion: 3.8
-  assetPath: Assets/Malbers Animations/Common/Shaders/Wind.mat
-  uploadId: 585856
+  packageVersion: 
+  assetPath: Assets/Malbers Animations/Common/Shaders/3x3 Sample.mat
+  uploadId: 0

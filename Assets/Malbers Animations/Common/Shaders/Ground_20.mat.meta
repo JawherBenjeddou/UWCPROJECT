@@ -1,9 +1,8 @@
 fileFormatVersion: 2
-guid: 605d1e14bd910db49aa50378eb8e118c
-ShaderImporter:
-  externalObjects: {}
-  defaultTextures: []
-  nonModifiableTextures: []
+guid: de3f4753ad99ddd4791206d831d03b71
+timeCreated: 1466023631
+licenseType: Store
+NativeFormatImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
@@ -12,5 +11,5 @@ AssetOrigin:
   productId: 121424
   packageName: Ravens and Crows
   packageVersion: 3.8
-  assetPath: Assets/Malbers Animations/Common/Shaders/Mask8Toon.shader
+  assetPath: Assets/Malbers Animations/Common/Shaders/Ground_20.mat
   uploadId: 585856
