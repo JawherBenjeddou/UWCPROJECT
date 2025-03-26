@@ -9009,7 +9009,7 @@ GameObject:
   m_Component:
   - component: {fileID: 884339928}
   m_Layer: 0
-  m_Name: "\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 UI \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 "
+  m_Name: ===== UI =====
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13019,7 +13019,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1166066835}
   m_Layer: 0
-  m_Name: '===== Game ===== '
+  m_Name: '===== Player ===== '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30705,8 +30705,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1967468753}
   m_Layer: 0
-  m_Name: "\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 Environment
-    \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 "
+  m_Name: '===== Environment ===== '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
