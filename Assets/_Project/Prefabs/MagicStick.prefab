@@ -1,0 +1,893 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7472474141576692470
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f0d67464a85392b41a363159f9a516c8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f0d67464a85392b41a363159f9a516c8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f0d67464a85392b41a363159f9a516c8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f0d67464a85392b41a363159f9a516c8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f0d67464a85392b41a363159f9a516c8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f0d67464a85392b41a363159f9a516c8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f0d67464a85392b41a363159f9a516c8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f0d67464a85392b41a363159f9a516c8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f0d67464a85392b41a363159f9a516c8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f0d67464a85392b41a363159f9a516c8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f0d67464a85392b41a363159f9a516c8,
+        type: 3}
+      propertyPath: m_Name
+      value: MagicStick
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f0d67464a85392b41a363159f9a516c8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -1053607873957265564}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f0d67464a85392b41a363159f9a516c8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -749443506572351867}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f0d67464a85392b41a363159f9a516c8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7712187625330608727}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f0d67464a85392b41a363159f9a516c8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -8262773721546816963}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f0d67464a85392b41a363159f9a516c8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3432475588269293541}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f0d67464a85392b41a363159f9a516c8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -6102191888566690463}
+  m_SourcePrefab: {fileID: 100100000, guid: f0d67464a85392b41a363159f9a516c8, type: 3}
+--- !u!1 &7742504103715389351 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f0d67464a85392b41a363159f9a516c8,
+    type: 3}
+  m_PrefabInstance: {fileID: 7472474141576692470}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &-1053607873957265564
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7742504103715389351}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &-749443506572351867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7742504103715389351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28363f8306084124a9094d9338e00e72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index: 624211
+  m_Active:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  m_hitLayer:
+    UseConstant: 0
+    ConstantValue:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    Variable: {fileID: 11400000, guid: f489db1856e43dc47b175dd125135bdc, type: 2}
+  Tags: []
+  AttackDirection: 0
+  triggerInteraction: 1
+  owner: {fileID: 7742504103715389351}
+  m_HitEffect:
+    UseConstant: 1
+    ConstantValue: {fileID: 0}
+    Variable: {fileID: 0}
+  hitEffects: []
+  hitSound:
+    UseConstant: 1
+    ConstantValue: {fileID: 0}
+    Variable: {fileID: 0}
+  DestroyHitEffect: 0
+  dontHitOwner:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  CustomReaction:
+    rid: -2
+  element: {fileID: 0}
+  interactorID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  interact:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  react:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  pureDamage:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  statModifier:
+    ID: {fileID: 11400000, guid: d6b3e636d59a6c547a2cad40b69f4432, type: 2}
+    modify: 3
+    MinValue:
+      UseConstant: 1
+      ConstantValue: 10
+      Variable: {fileID: 0}
+    MaxValue:
+      UseConstant: 1
+      ConstantValue: 10
+      Variable: {fileID: 0}
+    enable:
+      UseConstant: 1
+      ConstantValue: 1
+      Variable: {fileID: 0}
+  m_MissChance:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  m_cChance:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  cMultiplier:
+    UseConstant: 1
+    ConstantValue: 2
+    Variable: {fileID: 0}
+  m_Force:
+    UseConstant: 1
+    ConstantValue: 50
+    Variable: {fileID: 0}
+  minForce:
+    UseConstant: 1
+    ConstantValue: 20
+    Variable: {fileID: 0}
+  forceMode: 2
+  OnHit:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHitPosition:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHitInteractable:
+    m_PersistentCalls:
+      m_Calls: []
+  OnProfileChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAttackMissed:
+    m_PersistentCalls:
+      m_Calls: []
+  animator: {fileID: 0}
+  AnimatorSpeed:
+    UseConstant: 1
+    ConstantValue: 0.05
+    Variable: {fileID: 0}
+  AnimatorStopTime:
+    UseConstant: 1
+    ConstantValue: 0.1
+    Variable: {fileID: 0}
+  Profiles: []
+  DefaultProfile:
+    Name: 
+    modify: 0
+    interact:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+    interactorID:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+    react:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+    pureDamage:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+    statModifier:
+      ID: {fileID: 0}
+      modify: 0
+      MinValue:
+        UseConstant: 1
+        ConstantValue: 10
+        Variable: {fileID: 0}
+      MaxValue:
+        UseConstant: 1
+        ConstantValue: 10
+        Variable: {fileID: 0}
+      enable:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+    m_cChance:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+    m_MissChance:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+    cMultiplier:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+    maxForce:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+    minForce:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+    forceMode: 0
+    m_HitEffect:
+      UseConstant: 1
+      ConstantValue: {fileID: 0}
+      Variable: {fileID: 0}
+    CustomReaction:
+      rid: -2
+    element: {fileID: 0}
+  debug: 0
+  m_audio: {fileID: 7712187625330608727}
+  m_UI: {fileID: 0}
+  description:
+    UseConstant: 1
+    ConstantValue: 
+    Variable: {fileID: 0}
+  chargeTime:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  m_MaxCharge:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  chargeCharMultiplier: 1
+  ChargeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  GroundArmPose: 1
+  groundHandID: {fileID: 0}
+  RidingArmPose: 1
+  GroundCombo: {fileID: 0}
+  RidingCombo: {fileID: 0}
+  m_AimOrigin: {fileID: 0}
+  m_AimSide: 0
+  weaponType: {fileID: 0}
+  holster: {fileID: 11400000, guid: 31941dcdef3462d4c959c444d5b4ad1b, type: 2}
+  holsterAnim: {fileID: 0}
+  m_holsterIndex: 0
+  rightHand:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  m_rate:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  m_Automatic:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  m_IgnoreDraw:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  m_IgnoreStore:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  stance: {fileID: 0}
+  strafeOnAim:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  strafeOnEquip:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  strafeOnUnequip:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  AimIKRight: {fileID: 0}
+  AimIKLeft: {fileID: 0}
+  TwoHandIK:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  IKHandLeft:
+    UseConstant: 1
+    ConstantValue: {fileID: 0}
+    Variable: {fileID: 0}
+  IKHandRight:
+    UseConstant: 1
+    ConstantValue: {fileID: 0}
+    Variable: {fileID: 0}
+  HolsterOffset:
+    Position: {x: 0, y: 0, z: 0}
+    Rotation: {x: 0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  LeftHandOffset:
+    Position: {x: 0, y: 0, z: 0}
+    Rotation: {x: 0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  RightHandOffset:
+    Position: {x: 0.091, y: -0.021, z: 0.149}
+    Rotation: {x: 0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  Sounds: []
+  OnEquiped:
+    m_PersistentCalls:
+      m_Calls: []
+  OnUnequiped:
+    m_PersistentCalls:
+      m_Calls: []
+  OnCharged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnMaxCharged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChargedFinished:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAiming:
+    m_PersistentCalls:
+      m_Calls: []
+  OnUseFreeHand:
+    m_PersistentCalls:
+      m_Calls: []
+  OnReleaseFreeHand:
+    m_PersistentCalls:
+      m_Calls: []
+  Editor_Tabs1: 0
+  Editor_Tabs2: 4
+  releaseProjectile: 1
+  equipProjectile: 3
+  aimAction: 0
+  releaseDelay:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  releaseByAnimation:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  m_Projectile:
+    UseConstant: 1
+    ConstantValue: {fileID: 0}
+    Variable: {fileID: 0}
+  spreadAngle:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  spreadMult:
+    UseConstant: 1
+    ConstantValue: {x: 1, y: 1, z: 1}
+    Variable: {fileID: 0}
+  m_ProjectileInitialPoolSize:
+    UseConstant: 1
+    ConstantValue: 10
+    Variable: {fileID: 0}
+  m_ProjectileMaxPoolSize:
+    UseConstant: 1
+    ConstantValue: 1000
+    Variable: {fileID: 0}
+  m_ProjectileParent: {fileID: 0}
+  gravity:
+    UseConstant: 1
+    ConstantValue: {x: 0, y: -9.81, z: 0}
+    Variable: {fileID: 0}
+  UseAimAngle:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  HasFireAnim:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  m_AimAngle:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  AimLimit:
+    minValue: -180
+    maxValue: 180
+  noReload:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  m_Ammo:
+    UseConstant: 1
+    ConstantValue: 30
+    Variable: {fileID: 0}
+  m_AmmoInChamber:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  m_ChamberSize:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  m_ReloadTime:
+    UseConstant: 1
+    ConstantValue: 1.5
+    Variable: {fileID: 0}
+  m_AutoReload:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  m_AutoReloadTime:
+    UseConstant: 1
+    ConstantValue: 0.25
+    Variable: {fileID: 0}
+  HasReloadAnim:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  OnLoadProjectile:
+    m_PersistentCalls:
+      m_Calls: []
+  OnFireProjectile:
+    m_PersistentCalls:
+      m_Calls: []
+  OnReloadStart:
+    m_PersistentCalls:
+      m_Calls: []
+  OnReload:
+    m_PersistentCalls:
+      m_Calls: []
+  m_UnequipOnAim:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  m_AfterDistance:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+--- !u!82 &7712187625330608727
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7742504103715389351}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &-8262773721546816963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7742504103715389351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92538563868e44d409f2d797546ba20c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  line: {fileID: 3432475588269293541}
+  HitPoint: {fileID: 0}
+  StartWidth: 0.3
+  EndWidth: 0.1
+  startColor: {r: 0, g: 0, b: 1, a: 1}
+  endColor: {r: 0, g: 1, b: 0, a: 1}
+  Step: 0.1
+  MaxSteps: 50
+--- !u!120 &3432475588269293541
+LineRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7742504103715389351}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Positions: []
+  m_Parameters:
+    serializedVersion: 3
+    widthMultiplier: 1
+    widthCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.3
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0.1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    colorGradient:
+      serializedVersion: 2
+      key0: {r: 0, g: 0, b: 1, a: 1}
+      key1: {r: 0, g: 1, b: 0, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    numCornerVertices: 0
+    numCapVertices: 0
+    alignment: 0
+    textureMode: 0
+    textureScale: {x: 1, y: 1}
+    shadowBias: 0.5
+    generateLightingData: 0
+  m_MaskInteraction: 0
+  m_UseWorldSpace: 1
+  m_Loop: 0
+  m_ApplyActiveColorSpace: 1
+--- !u!114 &-6102191888566690463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7742504103715389351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5472d22282f85745834021dd59fc302, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Align: 0
+  AlignTime: 0.15
+  PickDelay:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  DropDelay:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  coolDown:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  m_Collectable:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  m_ByAnimation:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  m_DestroyOnPick:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  m_Amount:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  canBePicked:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  m_AutoPick:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  m_ID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  holder: -1
+  OnFocused:
+    m_PersistentCalls:
+      m_Calls: []
+  OnFocusedBy:
+    m_PersistentCalls:
+      m_Calls: []
+  OnUnfocusedBy:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPicked:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPickedFailed:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPrePicked:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDropped:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPreDropped:
+    m_PersistentCalls:
+      m_Calls: []
+  FocusedByReaction:
+    rid: -2
+  UnFocusedByReaction:
+    rid: -2
+  PickedReaction:
+    rid: -2
+  PrePickedReaction:
+    rid: -2
+  DroppedReaction:
+    rid: -2
+  PreDroppedReaction:
+    rid: -2
+  rb: {fileID: 0}
+  DestroyRbOnPick:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  m_colliders: []
+  kinematicOnPick:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  disableColliders:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  EditorTabs: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }

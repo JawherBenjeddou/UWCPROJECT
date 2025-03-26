@@ -6027,6 +6027,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Steve Player (Fast Weapons)
       objectReference: {fileID: 0}
+    - target: {fileID: 7900133648898073758, guid: 92f564babf4c1eb47b9100b6151aa26d,
+        type: 3}
+      propertyPath: Editor_Tabs1
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7900133648898073758, guid: 92f564babf4c1eb47b9100b6151aa26d,
+        type: 3}
+      propertyPath: Editor_Tabs2
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

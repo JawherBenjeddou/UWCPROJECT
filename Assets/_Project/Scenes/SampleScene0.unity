@@ -4125,6 +4125,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &389671965 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -5846270692196909274, guid: ede055807d66ae9428a7f74784ab5f5f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1668157867}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &390549649
 GameObject:
   m_ObjectHideFlags: 3
@@ -14368,6 +14374,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1310975972 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6398933694224860184, guid: 51089675ba972e5448cb7e8b015fc52c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1659633107}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1312631766
 GameObject:
   m_ObjectHideFlags: 3
@@ -16534,6 +16546,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 915298420877625147, guid: ae2072d9588609a439d68c0e90a33234,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879557397281800261, guid: ae2072d9588609a439d68c0e90a33234,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5613557636965663915, guid: ae2072d9588609a439d68c0e90a33234,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16588,6 +16610,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Steve AI Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5788220779173610105, guid: ae2072d9588609a439d68c0e90a33234,
+        type: 3}
+      propertyPath: Editor_Tabs1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28388,6 +28415,52 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: UseExternal
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: UseHolsters
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: Editor_Tabs1
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: Editor_Tabs2
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: DestroyOnUnequip
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: LeftHandEquipPoint
+      value: 
+      objectReference: {fileID: 389671965}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: RightHandEquipPoint
+      value: 
+      objectReference: {fileID: 2086740654}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: startWeapon.ConstantValue
+      value: 
+      objectReference: {fileID: 7742504103715389351, guid: 8aef141dc14e1de49b622e0db418dd64,
+        type: 3}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: holsters.Array.data[2].Slots.Array.data[0]
+      value: 
+      objectReference: {fileID: 1310975972}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -32310,6 +32383,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &2086740654 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -2349476437193732044, guid: ede055807d66ae9428a7f74784ab5f5f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1668157867}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2086742803
 GameObject:
   m_ObjectHideFlags: 3
