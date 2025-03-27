@@ -16,7 +16,5 @@ MonoBehaviour:
   debug: 0
   value: {fileID: 0}
   list:
-  - {fileID: 2087230376504962901, guid: bd7d2c63d5fbc0041ae463452e868c14, type: 3}
   - {fileID: 1355928556201573115, guid: faf70d6d36bbba44a83f3ad874746fff, type: 3}
-  - {fileID: 5394815393370045788, guid: 7c94c99b1d92c7b4d8619a12ecc34007, type: 3}
   - {fileID: 406475058203906938, guid: bcff32db73dac7344b4cac585b0ef97f, type: 3}

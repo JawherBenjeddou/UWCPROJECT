@@ -66,6 +66,36 @@ PrefabInstance:
       propertyPath: Editor_Tabs2
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013856570684, guid: 6327f99012e09404f86ebeb2c7bff1db,
+        type: 3}
+      propertyPath: RightHandOffset.Position.x
+      value: 0.0233
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013856570684, guid: 6327f99012e09404f86ebeb2c7bff1db,
+        type: 3}
+      propertyPath: RightHandOffset.Position.y
+      value: 0.1024
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013856570684, guid: 6327f99012e09404f86ebeb2c7bff1db,
+        type: 3}
+      propertyPath: RightHandOffset.Position.z
+      value: 0.054
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013856570684, guid: 6327f99012e09404f86ebeb2c7bff1db,
+        type: 3}
+      propertyPath: RightHandOffset.Rotation.x
+      value: 248.215
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013856570684, guid: 6327f99012e09404f86ebeb2c7bff1db,
+        type: 3}
+      propertyPath: RightHandOffset.Rotation.y
+      value: 11.395
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013856570684, guid: 6327f99012e09404f86ebeb2c7bff1db,
+        type: 3}
+      propertyPath: RightHandOffset.Rotation.z
+      value: 180
+      objectReference: {fileID: 0}
     - target: {fileID: 9207878466321987045, guid: 6327f99012e09404f86ebeb2c7bff1db,
         type: 3}
       propertyPath: m_Size.x
