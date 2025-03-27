@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Effect_01_SwordBody
   m_Shader: {fileID: 4800000, guid: e63b0715cc2bc8242838908bf7c4cb23, type: 3}
   m_ShaderKeywords: _ISBLENDADD_ON
@@ -66,7 +67,7 @@ Material:
     - _BlendDst: 1
     - _BlendSrc: 5
     - _BumpScale: 1
-    - _ColorStrength: 0.8
+    - _ColorStrength: 7.5
     - _CutOut: 0
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1

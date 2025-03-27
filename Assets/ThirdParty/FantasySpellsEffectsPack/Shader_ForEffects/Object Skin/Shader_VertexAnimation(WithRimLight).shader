@@ -24,7 +24,6 @@ Shader "GAPH Custom Shader/Object Skin/Vertex Animation(WithRimLight)" {
 		{
 			Tags{ "Queue" = "Transparent" "RenderType" = "Tranparent"  "IgnoreProjector" = "True" }
             Blend [_BlendSrc] [_BlendDst]
-			ColorMask RGB
 			LOD 200
 
 			SubShader {

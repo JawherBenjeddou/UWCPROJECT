@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Effect_57_MissileBody
   m_Shader: {fileID: 4800000, guid: c232760b301aa58438c86908cadb81ab, type: 3}
   m_ShaderKeywords: 
@@ -40,7 +41,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: ff6ee8d99261ecb4b9cf871f31982e32, type: 3}
-        m_Scale: {x: 2, y: 2}
+        m_Scale: {x: 25, y: 5}
         m_Offset: {x: 0, y: 0}
     - _Mask:
         m_Texture: {fileID: 0}
@@ -84,14 +85,14 @@ Material:
     - _NoiseScale: 0.01
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _RimScale: 2
-    - _RimStrength: 0.5
+    - _RimScale: 1
+    - _RimStrength: 2
     - _RimStrenth: 15
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _Speed: 1
     - _SrcBlend: 1
-    - _TexStrength: 2
+    - _TexStrength: 25
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:

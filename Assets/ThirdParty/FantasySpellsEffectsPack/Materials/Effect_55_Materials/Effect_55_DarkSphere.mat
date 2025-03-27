@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Effect_55_DarkSphere
   m_Shader: {fileID: 4800000, guid: c232760b301aa58438c86908cadb81ab, type: 3}
   m_ShaderKeywords: 
@@ -84,14 +85,14 @@ Material:
     - _NoiseScale: 0.02
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _RimScale: 8
-    - _RimStrength: 5
+    - _RimScale: 15
+    - _RimStrength: 15
     - _RimStrenth: 2
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _Speed: 1
     - _SrcBlend: 1
-    - _TexStrength: 1
+    - _TexStrength: 2.5
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:

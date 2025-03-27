@@ -18981,7 +18981,7 @@ PrefabInstance:
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
       propertyPath: Mode_Tabs1
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}

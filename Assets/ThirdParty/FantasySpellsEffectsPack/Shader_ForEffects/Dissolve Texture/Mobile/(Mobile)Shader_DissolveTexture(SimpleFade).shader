@@ -14,7 +14,6 @@ Shader "GAPH Custom Shader/Dissolve Texture/Mobile/Mobile - Dissolve Texture (Si
 		Category{
 			Tags{ "Queue" = "Transparent" "IgnoreProjector" = "True" "RenderType" = "Transperent" }
 			Blend SrcAlpha OneMinusSrcAlpha
-			ColorMask RGB
 			Cull Off
 			ZWrite Off
 

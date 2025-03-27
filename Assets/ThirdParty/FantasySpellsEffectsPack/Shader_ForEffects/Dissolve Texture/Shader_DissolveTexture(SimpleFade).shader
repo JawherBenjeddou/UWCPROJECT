@@ -14,7 +14,6 @@ Shader "GAPH Custom Shader/Dissolve Texture/Dissolve Texture (SimpleFade)" {
 		Category{
 			Tags{ "Queue" = "Transparent" "IgnoreProjector" = "True" "RenderType" = "Transperent" }
 			Blend SrcAlpha OneMinusSrcAlpha
-			ColorMask RGB
 			Cull Off
 			ZWrite Off
 

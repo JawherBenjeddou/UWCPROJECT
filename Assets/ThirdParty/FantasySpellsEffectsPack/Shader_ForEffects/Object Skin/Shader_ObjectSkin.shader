@@ -15,7 +15,6 @@
 	{
 		Tags{ "Queue" = "Transparent" "RenderType" = "Tranparent"  "IgnoreProjector" = "True" }
 		Blend[_BlendSrc][_BlendDst]
-		ColorMask RGB
 		LOD 200
 
 		SubShader{

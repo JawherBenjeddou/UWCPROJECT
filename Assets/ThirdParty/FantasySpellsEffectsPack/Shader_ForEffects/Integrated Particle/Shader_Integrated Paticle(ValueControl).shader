@@ -16,7 +16,6 @@ Shader "GAPH Custom Shader/Integrated Particle/Integrated Particle (ValueControl
 		Category{
 				Tags{"Queue" = "Transparent" "IgnoreProjector" = "True" "RenderType" = "Transparent"}
 				Blend [_BlendSrc] [_BlendDst]
-				ColorMask RGB
 				Cull Off
 				Lighting Off
 				ZWrite Off
