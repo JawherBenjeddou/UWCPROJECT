@@ -142,12 +142,37 @@ PrefabInstance:
     - target: {fileID: 114000011653941726, guid: cd655bcb33b07a94c9e01c2e9b6b5573,
         type: 3}
       propertyPath: Editor_Tabs1
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114000011653941726, guid: cd655bcb33b07a94c9e01c2e9b6b5573,
         type: 3}
       propertyPath: Editor_Tabs2
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011653941726, guid: cd655bcb33b07a94c9e01c2e9b6b5573,
+        type: 3}
+      propertyPath: RightHandOffset.Position.x
+      value: -0.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011653941726, guid: cd655bcb33b07a94c9e01c2e9b6b5573,
+        type: 3}
+      propertyPath: RightHandOffset.Position.y
+      value: 0.146
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011653941726, guid: cd655bcb33b07a94c9e01c2e9b6b5573,
+        type: 3}
+      propertyPath: RightHandOffset.Position.z
+      value: 0.098
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011653941726, guid: cd655bcb33b07a94c9e01c2e9b6b5573,
+        type: 3}
+      propertyPath: RightHandOffset.Rotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011653941726, guid: cd655bcb33b07a94c9e01c2e9b6b5573,
+        type: 3}
+      propertyPath: RightHandOffset.Rotation.y
+      value: -62.775
       objectReference: {fileID: 0}
     - target: {fileID: 114000011653941726, guid: cd655bcb33b07a94c9e01c2e9b6b5573,
         type: 3}
@@ -276,6 +301,10 @@ MonoBehaviour:
   DebugColor: {r: 0, g: 0.6545739, b: 1, a: 0.27058825}
   DrawAxis: 0
   AxisSize: 0.65
+  _collider: {fileID: 0}
+  DrawLineTo: 0
+  ConnectTo: {fileID: 0}
+  Rect: {x: 1, y: 1, z: 1}
 --- !u!114 &8470208101587527749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -315,6 +344,10 @@ MonoBehaviour:
     ConstantValue: 0
     Variable: {fileID: 0}
   m_Amount:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  canBePicked:
     UseConstant: 1
     ConstantValue: 1
     Variable: {fileID: 0}
@@ -364,6 +397,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  OnPickedFailed:
+    m_PersistentCalls:
+      m_Calls: []
   OnPrePicked:
     m_PersistentCalls:
       m_Calls:
