@@ -510,7 +510,7 @@ MonoBehaviour:
   Editor_Tabs1: 4
   Editor_Tabs2: 0
   releaseProjectile: 2
-  equipProjectile: 4
+  equipProjectile: 8
   aimAction: 0
   releaseDelay:
     UseConstant: 1
