@@ -38,6 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.4849924, g: 0.5915705, b: 0.65520734, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -316,7 +317,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5788933729863406440, guid: a994a817486df5b449158031f79a28af,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2047844740}
   m_SourcePrefab: {fileID: 100100000, guid: a994a817486df5b449158031f79a28af, type: 3}
 --- !u!1001 &28815534
 PrefabInstance:
@@ -18410,7 +18415,7 @@ MonoBehaviour:
       Variable: {fileID: 0}
     position:
       UseConstant: 1
-      ConstantValue: 4.908939
+      ConstantValue: 0
       Variable: {fileID: 0}
     lerpPosition:
       UseConstant: 1
@@ -18434,7 +18439,7 @@ MonoBehaviour:
       Variable: {fileID: 0}
     lerpAnimator:
       UseConstant: 1
-      ConstantValue: 5
+      ConstantValue: 4
       Variable: {fileID: 0}
     strafeSpeed:
       UseConstant: 1
@@ -18452,7 +18457,7 @@ MonoBehaviour:
       Variable: {fileID: 0}
     position:
       UseConstant: 1
-      ConstantValue: 4.908939
+      ConstantValue: 0
       Variable: {fileID: 0}
     lerpPosition:
       UseConstant: 1
@@ -18476,7 +18481,7 @@ MonoBehaviour:
       Variable: {fileID: 0}
     lerpAnimator:
       UseConstant: 1
-      ConstantValue: 5
+      ConstantValue: 4
       Variable: {fileID: 0}
     strafeSpeed:
       UseConstant: 1
@@ -24973,7 +24978,11 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 472475844}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1611997178416094, guid: aa3adfd5958b2114592cdff1ec26c7de,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1355568767}
   m_SourcePrefab: {fileID: 100100000, guid: aa3adfd5958b2114592cdff1ec26c7de, type: 3}
 --- !u!4 &1355568765 stripped
 Transform:
@@ -24981,6 +24990,35 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1355568764}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1355568766 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1611997178416094, guid: aa3adfd5958b2114592cdff1ec26c7de,
+    type: 3}
+  m_PrefabInstance: {fileID: 1355568764}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1355568767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1355568766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!4 &1358452398 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4432890301020822, guid: 8a27dac51a186d641aeb245b619adbde,
@@ -30332,6 +30370,35 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a27dac51a186d641aeb245b619adbde, type: 3}
+--- !u!1 &2047844737 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5788933729863406440, guid: a994a817486df5b449158031f79a28af,
+    type: 3}
+  m_PrefabInstance: {fileID: 17918396}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2047844740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047844737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!1 &2052433835
 GameObject:
   m_ObjectHideFlags: 0
@@ -35547,6 +35614,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1277549345}
     m_Modifications:
+    - target: {fileID: 2584011250218943675, guid: 92f564babf4c1eb47b9100b6151aa26d,
+        type: 3}
+      propertyPath: selectedComboEditor
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5235311164323954407, guid: 92f564babf4c1eb47b9100b6151aa26d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -35599,13 +35671,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5238690515048549276, guid: 92f564babf4c1eb47b9100b6151aa26d,
         type: 3}
+      propertyPath: Mode_Tabs1
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5238690515048549276, guid: 92f564babf4c1eb47b9100b6151aa26d,
+        type: 3}
       propertyPath: Editor_Tabs1
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5238690515048549276, guid: 92f564babf4c1eb47b9100b6151aa26d,
         type: 3}
       propertyPath: Editor_Tabs2
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5238690515048549276, guid: 92f564babf4c1eb47b9100b6151aa26d,
+        type: 3}
+      propertyPath: SelectedMode
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5238690515048549276, guid: 92f564babf4c1eb47b9100b6151aa26d,
         type: 3}
@@ -35620,7 +35702,7 @@ PrefabInstance:
     - target: {fileID: 7900133648898073758, guid: 92f564babf4c1eb47b9100b6151aa26d,
         type: 3}
       propertyPath: Editor_Tabs1
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7900133648898073758, guid: 92f564babf4c1eb47b9100b6151aa26d,
         type: 3}
