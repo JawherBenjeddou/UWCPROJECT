@@ -18,11 +18,11 @@ public class csObjectMoveDestroy : MonoBehaviour {
 
     void LateUpdate()
     {
-      //  time += Time.deltaTime;
-       // if (time > maxTime)
-       //     Destroy(this.gameObject);
-        
-        transform.Translate(Vector3.forward * -Time.deltaTime * MoveSpeed);
+        //time += Time.deltaTime;
+        //if (time > maxTime)
+        //    Destroy(this.gameObject);
+
+        //transform.Translate(Vector3.forward * -Time.deltaTime * MoveSpeed);
         if (!ishit)
         {
             RaycastHit hit;

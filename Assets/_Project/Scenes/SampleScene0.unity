@@ -16640,6 +16640,11 @@ PrefabInstance:
       propertyPath: Editor_Tabs1
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7557667565279993554, guid: ae2072d9588609a439d68c0e90a33234,
+        type: 3}
+      propertyPath: Editor_Tabs1
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18981,7 +18986,7 @@ PrefabInstance:
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
       propertyPath: Mode_Tabs1
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
@@ -19011,7 +19016,7 @@ PrefabInstance:
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
       propertyPath: modes.Array.size
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
@@ -19047,19 +19052,19 @@ PrefabInstance:
         type: 3}
       propertyPath: modes.Array.data[5].ID
       value: 
-      objectReference: {fileID: 11400000, guid: 3622b360f5bfcf044b1572265cfadeb5,
+      objectReference: {fileID: 11400000, guid: db9d6cbfd19aedc42ba272a912e61ebf,
         type: 2}
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
       propertyPath: modes.Array.data[6].ID
       value: 
-      objectReference: {fileID: 11400000, guid: db9d6cbfd19aedc42ba272a912e61ebf,
+      objectReference: {fileID: 11400000, guid: 25a9ab75d9646144eaa77342296c549c,
         type: 2}
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
       propertyPath: modes.Array.data[7].ID
       value: 
-      objectReference: {fileID: 11400000, guid: e9eaa24ae7382eb4f97d3484ea3e6e57,
+      objectReference: {fileID: 11400000, guid: 25a9ab75d9646144eaa77342296c549c,
         type: 2}
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
@@ -19116,17 +19121,17 @@ PrefabInstance:
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
       propertyPath: modes.Array.data[5].Input
-      value: Action1
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
       propertyPath: modes.Array.data[6].Input
-      value: Action2
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
       propertyPath: modes.Array.data[5].active
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
@@ -19323,22 +19328,22 @@ PrefabInstance:
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
       propertyPath: modes.Array.data[6].allowMovement
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
       propertyPath: modes.Array.data[6].allowRotation
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
       propertyPath: modes.Array.data[7].allowMovement
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
       propertyPath: modes.Array.data[7].allowRotation
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
@@ -19423,7 +19428,7 @@ PrefabInstance:
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
       propertyPath: modes.Array.data[5].ignoreLowerModes
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
@@ -19483,7 +19488,7 @@ PrefabInstance:
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
       propertyPath: modes.Array.data[5].Abilities.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
@@ -19578,6 +19583,11 @@ PrefabInstance:
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
       propertyPath: modes.Array.data[2].DefaultIndex.ConstantValue
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: modes.Array.data[5].SelectedAbilityIndexEditor
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
@@ -19683,7 +19693,7 @@ PrefabInstance:
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
       propertyPath: modes.Array.data[5].Abilities.Array.data[1].Name
-      value: Right Holster
+      value: MagicStick Aim RH
       objectReference: {fileID: 0}
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
@@ -19728,7 +19738,7 @@ PrefabInstance:
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
       propertyPath: modes.Array.data[5].m_AbilityIndex.ConstantValue
-      value: -99
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
@@ -19788,7 +19798,7 @@ PrefabInstance:
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
       propertyPath: modes.Array.data[7].Abilities.Array.data[0].Name
-      value: MagicStick Aim RH
+      value: AbilityName
       objectReference: {fileID: 0}
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
@@ -19838,7 +19848,7 @@ PrefabInstance:
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
       propertyPath: modes.Array.data[7].m_AbilityIndex.ConstantValue
-      value: 0
+      value: -99
       objectReference: {fileID: 0}
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
@@ -20123,12 +20133,12 @@ PrefabInstance:
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
       propertyPath: modes.Array.data[5].Abilities.Array.data[1].Status
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
       propertyPath: modes.Array.data[6].Abilities.Array.data[0].Status
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
@@ -22215,7 +22225,7 @@ PrefabInstance:
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
       propertyPath: modes.Array.data[5].Abilities.Array.data[0].Index.ConstantValue
-      value: 1
+      value: 101
       objectReference: {fileID: 0}
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
@@ -22235,7 +22245,7 @@ PrefabInstance:
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
       propertyPath: modes.Array.data[5].Abilities.Array.data[1].Index.ConstantValue
-      value: 2
+      value: 97
       objectReference: {fileID: 0}
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
@@ -24950,7 +24960,12 @@ PrefabInstance:
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
       propertyPath: modes.Array.data[5].Abilities.Array.data[0].abilityTime.ConstantValue
-      value: 3
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: modes.Array.data[5].Abilities.Array.data[1].abilityTime.ConstantValue
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
@@ -25060,7 +25075,7 @@ PrefabInstance:
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
       propertyPath: modes.Array.data[6].Abilities.Array.data[0].abilityTime.ConstantValue
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
@@ -26795,7 +26810,7 @@ PrefabInstance:
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
       propertyPath: modes.Array.data[5].Abilities.Array.data[1].Limits.affectStates.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4875328659987879375, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
@@ -30285,18 +30300,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
-      propertyPath: UseExternal
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
-        type: 3}
-      propertyPath: UseHolsters
+      propertyPath: ExitFast
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
+      propertyPath: UseExternal
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: UseHolsters
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
       propertyPath: Editor_Tabs1
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
@@ -30320,6 +30340,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
+      propertyPath: StoreSelfHolster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
       propertyPath: StoreWeaponModeID
       value: 
       objectReference: {fileID: 0}
@@ -30335,24 +30360,64 @@ PrefabInstance:
       objectReference: {fileID: 1190571845}
     - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
+      propertyPath: holsters.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
       propertyPath: ExitOnModes.Array.size
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
       propertyPath: ExitOnState.Array.size
-      value: 7
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: StoreAfter.ConstantValue
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
       propertyPath: m_AimInput.ConstantValue
-      value: 
+      value: Action2
       objectReference: {fileID: 0}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: ExitOnState.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: adfa24f62d6db4d40a1d837f4ec1a6e9,
+        type: 2}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: ExitOnState.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: adfa24f62d6db4d40a1d837f4ec1a6e9,
+        type: 2}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: ExitOnState.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: adfa24f62d6db4d40a1d837f4ec1a6e9,
+        type: 2}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: ExitOnState.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: adfa24f62d6db4d40a1d837f4ec1a6e9,
+        type: 2}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: ExitOnState.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: 39ecd542b266f344095b83d87284a693,
+        type: 2}
     - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
       propertyPath: ExitOnState.Array.data[5]
       value: 
-      objectReference: {fileID: 11400000, guid: adfa24f62d6db4d40a1d837f4ec1a6e9,
+      objectReference: {fileID: 11400000, guid: 39ecd542b266f344095b83d87284a693,
         type: 2}
     - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
@@ -30362,10 +30427,43 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
+      propertyPath: holsters.Array.data[0].ID
+      value: 
+      objectReference: {fileID: 11400000, guid: 31941dcdef3462d4c959c444d5b4ad1b,
+        type: 2}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: holsters.Array.data[1].ID
+      value: 
+      objectReference: {fileID: 11400000, guid: 8be06e7fc27c57c4e82d4a5cafd76296,
+        type: 2}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: holsters.Array.data[2].ID
+      value: 
+      objectReference: {fileID: 11400000, guid: d255c533616b51e45a47b4cd57f1ac7a,
+        type: 2}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
       propertyPath: startWeapon.ConstantValue
       value: 
       objectReference: {fileID: 7742504103715389351, guid: 8aef141dc14e1de49b622e0db418dd64,
         type: 3}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: m_IgnoreDraw.ConstantValue
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: m_MainAttack.ConstantValue
+      value: Action1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: m_ReloadInput.ConstantValue
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
       propertyPath: m_SecondAttack.ConstantValue
@@ -30373,9 +30471,77 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
         type: 3}
+      propertyPath: holsters.Array.data[0].Weapon
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: holsters.Array.data[1].Weapon
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: holsters.Array.data[2].Weapon
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: holsters.Array.data[0].Slots.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: holsters.Array.data[0].Input.ConstantValue
+      value: Action2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: holsters.Array.data[0].Slots.Array.data[0]
+      value: 
+      objectReference: {fileID: 1310975972}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: holsters.Array.data[1].Input.ConstantValue
+      value: Action2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: holsters.Array.data[2].Input.ConstantValue
+      value: Action2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
       propertyPath: holsters.Array.data[2].Slots.Array.data[0]
       value: 
       objectReference: {fileID: 1310975972}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: OnCombatMode.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: OnEquipWeapon.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: holsters.Array.data[0].OnWeaponInHolster.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 42e8e011e038e3840bad20396017d8ef,
+        type: 2}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: holsters.Array.data[1].OnWeaponInHolster.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 42e8e011e038e3840bad20396017d8ef,
+        type: 2}
+    - target: {fileID: 7402190879912934093, guid: 51089675ba972e5448cb7e8b015fc52c,
+        type: 3}
+      propertyPath: holsters.Array.data[2].OnWeaponInHolster.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 42e8e011e038e3840bad20396017d8ef,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:

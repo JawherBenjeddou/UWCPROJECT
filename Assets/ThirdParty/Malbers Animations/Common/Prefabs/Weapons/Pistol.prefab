@@ -548,8 +548,8 @@ MonoBehaviour:
   OnReleaseFreeHand:
     m_PersistentCalls:
       m_Calls: []
-  Editor_Tabs1: 0
-  Editor_Tabs2: 4
+  Editor_Tabs1: 4
+  Editor_Tabs2: 0
   releaseProjectile: 1
   equipProjectile: 4
   aimAction: 0
